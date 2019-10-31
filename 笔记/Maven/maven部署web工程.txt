@@ -1,0 +1,47 @@
+	<build>	<finalName>WebProjectName</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>1.4.9</version>
+				<configuration>
+					<container>
+						<containerId>tomcat8-5-30</containerId>
+						<home>D:\study\apache-tomcat-8.5.30</home>
+					</container>
+					<configuration>
+						<type>existing</type>
+						<home>D:\study\apache-tomcat-8.5.30</home>
+						<!-- Ä¬ÈÏÖµ8080 -->
+						<properties>
+							<cargo.servlet.port>8888</cargo.servlet.port>
+						</properties>
+					</configuration>
+				</configuration>
+				<executions>  
+					<execution>  
+						<id>cargo-run</id>  
+						<phase>install</phase>  
+						<goals>  
+							<goal>run</goal>  
+						</goals>  
+					</execution>  
+				</executions>
+			
+
+
+</plugin>
+
+		 <plugin>  
+        <groupId>org.apache.maven.plugins</groupId>  
+        <artifactId>maven-compiler-plugin</artifactId>  
+        <version>3.1</version>  
+        <configuration>  
+            <source>1.8</source>  
+            <target>1.8</target>  
+        </configuration>  
+    </plugin> 
+
+
+		</plugins>
+	</build>

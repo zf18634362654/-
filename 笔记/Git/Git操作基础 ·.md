@@ -53,7 +53,7 @@ git commit -m "提交到分支"
 git push  origin master
 
 **更新(远程-本地)**
-git pull第一次发布项目 （本地-远程）
+git pull （远程-本地）
 
 
 

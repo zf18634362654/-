@@ -30,7 +30,7 @@
 	  			</configuration>
 	  		</plugin>            
 		</plugins>
-	</build>
+	
 ```
 
 2

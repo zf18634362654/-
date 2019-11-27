@@ -186,3 +186,8 @@ bigdata01 -> bigdata02/bigdata03
 
 		查看进程		jps
 		结束进程		kill -9 进程编号
+
+
+vim  文件名      编辑文件
+
+：set nu(number) 为当前所编辑的文件加入行号
